@@ -1,0 +1,24 @@
+.app__menuitem {
+  margin: 1rem 0;
+}
+
+.app__menuitem-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__menuitem-sub {
+  margin-top: 0.2rem;
+}
+
+.app__menuitem-name {
+  flex: 1;
+}
+
+.app__menuitem-dash {
+  width: 90px;
+  height: 1px;
+  margin: 0 1rem;
+  background: var(--color-golden);
+}
