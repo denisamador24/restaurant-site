@@ -1,0 +1,69 @@
+.app__footer {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-black);
+}
+
+.app__footer-conteiner {
+  z-index: 2;
+}
+
+.app__footer-links {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  gap: 5rem;
+}
+
+.app__footer-links > div {
+  text-align: center;
+}
+
+.app__footer-links .app__footer-links_content-title {
+  font-size: 32px;
+  padding-bottom: 2rem;
+}
+
+.app__footer-links_content .p__opensans {
+  color: #AAA;
+}
+
+.app__footer-links .app__footer-links_gericht-title {
+  margin-bottom: 2rem;
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--color-golden);
+  text-transform: uppercase;
+}
+
+.app__footer-links_gericht-icons {
+  margin-top: 1rem;
+  font-size: 18px;
+  display: flex;
+  gap: 1.6rem;
+  justify-content: center;
+}
+
+.app__footer-copyright {
+  margin: 4rem 0;
+}
+
+.app__footer-copyright p {
+  padding-bottom: 1rem;
+  text-align: center;
+  color: #AAA;
+}
+
+@media screen and (max-width: 1024px) {
+  .app__footer-links {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .app__footer-links_gericht {
+    grid-row: 1;
+  }
+}

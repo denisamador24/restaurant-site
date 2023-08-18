@@ -3,9 +3,10 @@ import React from 'react';
 import './FooterOverlay.css';
 
 const FooterOverlay = () => (
-  <section className='app__footer-overlay'>
-    <div  />
-  </section>
+  <div className='app__footerOverlay'>
+    <div className='app__footerOverlay-black' />
+    <div className='app__footerOverlay-img app__bg' />
+  </div>
 );
 
 export default FooterOverlay;

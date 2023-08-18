@@ -1,0 +1,14 @@
+.app__footerOverlay {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+}
+
+.app__footerOverlay-black {
+ height: 25%;
+ background: var(--color-black);
+}
+
+.app__footerOverlay-img {
+  height: 75%;
+}
