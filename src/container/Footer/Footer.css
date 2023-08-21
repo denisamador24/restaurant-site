@@ -41,12 +41,19 @@
 
 .app__footer-links_gericht-icons {
   margin-top: 1rem;
-  font-size: 18px;
   display: flex;
   gap: 1.6rem;
   justify-content: center;
 }
 
+.app__footer-links_gericht-icons svg {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.app__footer-links_gericht-icons svg:hover {
+  color: var(--color-golden);
+}
 .app__footer-copyright {
   margin: 4rem 0;
 }
